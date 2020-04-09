@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portofolio</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito Sans" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+$(function () {
+    $(".grid").slice(0, 8).show();
+    $("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $(".grid:hidden").slice(0, 4).slideDown();
+        if ($(".grid:hidden").length == 0) {
+            $("#loadMore").fadeOut('slow');
+        }
+    });
+});
+</script>
+</head>
+
+<body>
+<header>
+<div class="wrap-inner clearfix">
+<div class="logo"><img src="images/logo.png" alt=""></div>
+<div class="gnav">
+  <ul class="gnav-list">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#work">WORK</a></li>
+    <li><a href="#process">PROCESS</a></li>
+    <li><a href="#services">SERVICES</a></li>
+    <li><a href="#testimonials">TESTIMONIALS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+</div>
+</header>
+<section class="home" id="home">
+<div class="wrap-inner clearfix">
+<div class="col-2">
+<div class="col1">
+</div>
+<div class="col2">
+  <h1>We Design and Develop</h1>
+  <p class="text">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+  <p class="btn"><a href="#">CONTACT US</a></p>
+</div>
+</div>
+</div>
+</section>
+<section class="about" id="about">
+<div class="wrap-inner clearfix">
+  <h2>About Us</h2>
+  <p class="text">Divide have don't man wherein air fourth. Own itself make have night won't make. <br>A you under Seed appear which good give. Own give air without fowl moveth dry first <br>heaven fruit, dominion she'd won't very all.</p>
+  <p class="img"><img src="images/sign.png" alt=""></p>
+</div>
+<div class="skills clearfix">
+  <div class="col1 clearfix">
+    <div class="skills-cont">
+      <h2>Professional Skills</h2>
+      <dl>
+        <dt>UI/UX DESIGN<span>75%</span></dt>
+        <dd><img src="images/skill-75.png" alt=""></dd>
+        <dt>WEB DEVELOPMENT<span>90%</span></dt>
+        <dd><img src="images/skill-90.png" alt=""></dd>
+        <dt>MARKETING<span>65%</span></dt>
+        <dd><img src="images/skill-65.png" alt=""></dd>
+      </dl>
+    </div>
+  </div>
+  <div class="col2"></div>
+</div>
+<div class="achive clearfix">
+<div class="wrap-inner clearfix">
+  <div class="achive-cont">
+    <div class="col">
+      <p class="icon"><img src="images/icon_bag.png" alt=""></p>
+      <p class="icon-text"><span>548</span><br>PROJECTS COMPLETED</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_clock.png" alt=""></p>
+      <p class="icon-text"><span>1465</span><br>WORKING HOURS</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_star.png" alt=""></p>
+      <p class="icon-text"><span>612</span><br>POSITIVE FEEDBACKS</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_heart.png" alt=""></p>
+      <p class="icon-text"><span>735</span><br>HAPPY CLIENTS</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="work" id="work">
+  <div class="gallery">
+    <ul class="clearfix">
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_03.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_03.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_02.jpg" alt=""></li>
+      <li class="grid"><img src="images/img_01.jpg" alt=""></li>
+    </ul>
+    <p class="load-more"><a href="javascript:void(0)" id="loadMore">LOAD MORE WORK</a></p>
+  </div>
+</section>
+<section class="process" id="process">
+<div class="wrap-inner clearfix">
+  <h2>Our Work Process</h2>
+  <p class="text">Was years it seasons was there form he in in them together over that, <br>third sixth gathered female creeping bearing behold years.</p>
+  <div class="video-process"><img src="images/video_01.jpg" alt=""></div>
+</div>
+</section>
+<section class="services" id="services">
+<div class="wrap-inner clearfix">
+  <div class="service-cont">
+    <div class="col">
+      <p class="icon"><img src="images/icon_01.png" alt=""></p>
+      <p class="icon-ttl-text">UI / UX DESIGN</p>
+      <p class="icon-text">Be set fourth land god darkness <br>make it wherein own</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_02.png" alt=""></p>
+      <p class="icon-ttl-text">WEB DEVELOPMENT</p>
+      <p class="icon-text">A she'd them bring void moving <br>third she'd kind fill</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_03.png" alt=""></p>
+      <p class="icon-ttl-text">APP / MOBILE</p>
+      <p class="icon-text">A she'd them bring void moving <br>third she'd kind fill</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_04.png" alt=""></p>
+      <p class="icon-ttl-text">GAME DESIGN</p>
+      <p class="icon-text">Morning his saying moveth it <br>multiply appear life be</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_05.png" alt=""></p>
+      <p class="icon-ttl-text">SEO / MARKETING</p>
+      <p class="icon-text">Morning his saying moveth it <br>multiply appear life be</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_06.png" alt=""></p>
+      <p class="icon-ttl-text">PHOTOGRAPHY</p>
+      <p class="icon-text">Creepeth one seas cattle grass <br>give moving saw give</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_07.png" alt=""></p>
+      <p class="icon-ttl-text">GRAPHIC DESIGN</p>
+      <p class="icon-text">Creepeth one seas cattle grass <br>give moving saw give</p>
+    </div>
+    <div class="col">
+      <p class="icon"><img src="images/icon_08.png" alt=""></p>
+      <p class="icon-ttl-text">ILLUSTRATIONS</p>
+      <p class="icon-text">Whales likeness hath, man kind <br>for them air two won't</p>
+    </div>
+  </div>
+</div>
+</section>
+<section class="testimonials" id="testimonials">
+<div class="wrap-inner clearfix">
+  <ul class="partner">
+    <li><img src="" alt=""></li>
+    <li><img src="" alt=""></li>
+    <li><img src="" alt=""></li>
+    <li><img src="" alt=""></li>
+  </ul>
+</div>
+</section>
+<section id="contact">
+</section>
+<footer>
+</footer>
+    <script src="js/slideNav.js" type="text/javascript"></script>
+    <script>
+	    window.slide = new SlideNav({
+		changeHash: true
+	    });
+    </script>
+</body>
+</html>
