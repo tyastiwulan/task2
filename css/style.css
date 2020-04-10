@@ -494,6 +494,12 @@ footer p, footer ul li{
     font-family: 'Nunito Sans';
     color: #bcbcbc;
 }
+footer a{
+    color: #bcbcbc;
+}
+footer a:hover{
+    text-decoration: underline;
+}
 footer p.company{
     font-family: 'Montserrat';
     font-size: 18px;
