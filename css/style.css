@@ -207,7 +207,7 @@ section.about .skills .col2{
     float: right;
     width: 50%;
     height: 570px;
-    background-color: #e9e9e9;
+    background: url(../images/bg_about_01.jpg) no-repeat;
 }
 section.about .skills .skills-cont{
     float: right;
@@ -369,4 +369,187 @@ section.services .service-cont .col .icon-text{
     text-align: center;
     line-height: 1.5;
     color: #787878;
+}
+
+section.testimonials{
+    width: 100%;
+    background-color: #ffffff;
+}
+section.testimonials .slideText{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #10c9c3;
+}
+section.testimonials .slideText .slideshow-container{
+    width: 840px;
+    margin: 100px auto;
+}
+section.testimonials .slideText .slideshow-container .mySlides p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    color: #ffffff;
+}
+section.testimonials .slideText .slideshow-container .mySlides p.person{
+    margin-top: 20px;
+    font-size: 12px;
+}
+section.testimonials .partner{
+    margin: 60px 0;
+}
+section.testimonials .partner li{
+    display: inline-block;
+    margin-right: 86px;
+}
+section.testimonials .partner li:last-child{
+    margin-right: 0;
+}
+
+section.contact{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+section.contact h2{
+    margin: 82px 0 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+    color: #191919;   
+}
+section.contact p.text{
+    width: 615px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    color: #787878;
+}
+section.contact .form-contact{
+    width: 670px;
+    margin: 40px auto 80px;
+}
+section.contact .form-contact .yname{
+    float: left;
+    width: 322px;
+}
+section.contact .form-contact .yemail{
+    float: right;
+    width: 322px;
+}
+section.contact .form-contact .ytitle{
+    margin-top: 30px;
+}
+section.contact .form-contact .ycomment{
+    margin-top: 30px;
+    height: 170px;
+}
+section.contact .form-contact .button{
+    width: 180px;
+    margin: 30px auto;
+    display: block;
+    padding: 20px 10px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #10c9c3;
+    cursor: pointer;
+}
+section.contact .form-contact input{
+    padding: 20px;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    color: #787878;
+    background-color: #ffffff;
+}
+
+footer{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #141414;
+}
+footer .sub1, footer .sub2, footer .sub3, footer .sub4{
+    display: inline-block;
+    vertical-align: top;
+}
+footer .sub2{
+    margin-left: 250px;
+    margin-right: 120px;
+}
+footer .sub3{
+    margin-right: 80px;
+}
+footer .sub3 ul{
+    width: 250px;
+}
+footer .sub3 ul li{
+    float: left;
+    width: 120px;
+}
+footer p, footer ul li{
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+}
+footer p.company{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+}
+footer p.copy{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #b0e8e6;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active, .dot:hover {
+  height: 11px;
+  width: 11px;
+  background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
